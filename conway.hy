@@ -1,6 +1,6 @@
 (import grid)
-(import-from functools reduce)
-(import-from operator add)
+(import [functools [reduce]])
+(import [operator [add]])
 
 
 (def *world* (grid.Torus 10 10))
